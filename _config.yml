@@ -8,12 +8,13 @@ subtitle: 'Monoya的个人博客'
 description: '等风来，不如追风去'
 keywords:
 author: Monoya
-language: zh-Hans
+language: zh-CN
 timezone: ''
+email: 948735627@qq.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://code233.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
