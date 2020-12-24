@@ -73,7 +73,7 @@ V<VERSION>__<NAME>.sql #注意：是两条下划线
 #### 验证是否成功:
 项目启动时,会运行flyway执行sql语句.生成schema_version表,用于记录sql执行情况.
 去数据库`test`看`flyway_schema_history`表
-![](Springboot集成FlyWay.assets/20201224132524.png)
+![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201224132524.png)
 
 #### 其他配置
 ```
