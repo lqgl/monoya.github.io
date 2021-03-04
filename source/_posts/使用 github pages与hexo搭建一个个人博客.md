@@ -12,13 +12,13 @@ top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/cover.png
 ---
 
-**使用 github pages与hexo搭建个人博客**
+# 使用 github pages与hexo搭建个人博客
 
-一、安装 git与node.js
+## 安装 git与node.js
 
-二、安装hexo
+## 安装hexo
 
-1. 全局安装 hexo
+### 全局安装 hexo
 ```cmd
 npm install hexo-cli -g
 ```
@@ -32,11 +32,11 @@ hexo -v
 
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/image-20201213171742218.png)
 
-三、在github上创建并设置远程库
+## 在github上创建并设置远程库
 
 注册登录略过，不会的请自行百度。
 
-四、初始化 Hexo
+## 初始化 Hexo
 
 创建一个文件夹用于存放hexo。然后右键该文件夹使用![](https://raw.githubusercontent.com/lqgl/repo/main/img/image-20201213172009186.png)
 
@@ -74,32 +74,32 @@ hexo s
 
 http://localhost:4000
 
-五、更换主题
+## 更换主题
 
-1. 这里更换的是 butterfly 主题
+### 这里更换的是 butterfly 主题
 ```bash
 git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-2. 应用主題
+### 应用主題
 
   修改站点配置文件_config.yml，把主題改为butterfly
 
 ```YAML
 theme: butterfly
 ```
-3. 安装插件
+### 安装插件
 如果你沒有 pug 以及 stylus 的渲染器，请下载安装：
 ```
 npm install hexo-renderer-pug hexo-renderer-stylus --save
 ```
-4. 升级建议
+### 升级建议
 把主题文件夹中的 _config.yml 复製到 Hexo 根目录里，同时重新命名为 _config.butterfly.yml。
 
 以后只需要在 _config.butterfly.yml进行配置就行。
 
 Hexo会自动合併主题中的_config.yml和 _config.butterfly.yml里的配置，如果存在同名配置，会使用_config.butterfly.yml的配置，其优先度较高。
-5. 修改内容
+### 修改内容
 内容较多建议参考官方文档
 https://hexo.io/zh-cn/docs/configuration.html
 修改完之后，可以重新执行hexo s在浏览器查看效果。并确认无误，包括以后需要添加文章，或者更新主题等，都建议先在本地查看无误再远程部署。
@@ -113,37 +113,38 @@ author: 姓名
 language: zh-CN
 timezone:
 ```
+### 注意：
 这里有几个坑需要注意一下：
 >1、所有的配置“:”符号后面都要带空格，否则执行本地测试直接失败。
 2、language是设置语言。zh-CN是中文。
 3、如果设置zh-CN后仍出现乱码问题。需要更改文件的字符编码集为UTF-8,方法很多具体，就不详细介绍了。
 
-6. 注意同时要在，根config.yml中配置自己的远程仓库地址
+### 要在根config.yml中配置自己的远程仓库地址
 ```
 deploy:
   type: git
   repo: https://github.com/lqgl/monoya.github.io.git
   branch: main
 ```
-六、将博客部署到 github pages上
+## 将博客部署到 github pages上
 
-1. 安装部署工具（方便以后更新）
+### 安装部署工具（方便以后更新）
 ```
 npm install hexo-deployer-git --save
 ```
-2. 初始化本地仓库：
+### 初始化本地仓库：
 ```
 git init
 ```
-3. 连接远程仓库：
+### 连接远程仓库：
 如果是第一次使用git，在使用git的时候会提示输入用户名和密码，用户名是自己的注册邮箱。
 git remote add origin https://github.com/lqgl/monoya.github.io.git
 
-4. 发布hexo到github pages
+### 发布hexo到github pages
 ```
 hexo clean && hexo g && hexo d
 ```
-5. 推送到远程仓库（github）
+### 推送到远程仓库（github）
 这里建议创建一个新的分支hexo，用于管理hexo文件。提交的的时候只提交hexo网站html、css、等源文件。而默认的main分支用来部署更新项目
 1) 创建并切换到新建分支：
 ```
@@ -161,12 +162,15 @@ git commit -m '内容'
 ```
 git push origin hexo
 ```
-七、进阶-绑定域名
-1.  购买域名,添加解析，具体请百度，或发工单
-2. 登录github，找到项目，设置setting，找到GitHub Pages
+## 进阶-绑定域名
+###  购买域名,添加解析
+具体请百度，或发工单
+### 登录github
+找到项目，设置setting，找到GitHub Pages
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/image-20201213200436249.png)
-3. 在main分支下的CNAME.MD文件写入注册的域名
 
+### 写入注册的域名
+在`main`分支下的创建一个`CNAME`文件
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/image-20201213200610626.png)
 
 如果延迟的话，可能解析立马不会生效。需要等会儿才能看到。

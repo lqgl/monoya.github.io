@@ -13,36 +13,39 @@ cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20201214110203.png
 ---
 
 
-## Github + PicGo图床
+# 使用 Github repo + PicGo 搭建博客图床
 
 ## 创建github repo,并生成token
 
-1. 创建仓库
+### 创建仓库
 
    ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102438.png)
 
-2. 生成token
+### 生成token
 
-   1）进入个人中心设置
+进入个人中心设置
 
-   ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102542.png)
+![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102542.png)
 
-   2）进入`Developer settings`中，选择`Personal aceess token`,然后`Generate new token`.
+进入`Developer settings`中，选择`Personal aceess token`,然后`Generate new token`.
 
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102805.png)
 
-   3)  生成 token(Note 部分随便写即可，下边的权限把 `repo` 相关的打上勾即可)
+生成 token(Note 部分随便写即可，下边的权限把 `repo` 相关的打上勾即可)
 
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214103050.png)
 
-   4)  接下来便会生成一个 token，将它复制下来，因为一旦刷新网页，你将见不到这个 token 了。
+接下来便会生成一个 token，将它复制下来，因为一旦刷新网页，你将见不到这个 token 了。
 
 ## 下载安装 PicGo
 
-1. 进入[PicGo仓库](https://github.com/Molunerfinn/PicGo)然后下载安装。
-2. Github图床配置
+### 下载并安装PicGo
+[PicGo仓库](https://github.com/Molunerfinn/PicGo)。
+## Github图床配置
 
-![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102145.png)PicGo的Github图床配置有固定的格式:
+![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214102145.png)
+### Github图床配置
+PicGo的Github图床配置有固定的格式:
 仓库名格式为:`用户名/仓库名`
 分支名设置为:`master`
 Token设置为:上面获取到的`token`

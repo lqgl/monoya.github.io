@@ -11,9 +11,10 @@ description: Springboot集成FlyWay，使用FlyWay进行数据库版本管理
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20201224182958.png
 ---
-## Springboot集成FlyWay
+# Springboot集成FlyWay
 
-#### pom.xml添加maven依赖
+## 依赖
+在pom.xml添加maven依赖
 ```
 <!-- mysql 依赖 -->
 <dependency>
@@ -39,8 +40,8 @@ cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20201224182958.png
     <artifactId>flyway-maven-plugin</artifactId>
 </plugin>
 ```
-#### 开启Flyway支持,在application.ym文件添加Flyway配置
-
+## 配置 `application.yml`
+在application.ym文件添加Flyway配置
 需要先配置数据源（连接上数据库），可以自己换成druid
 
 ```
@@ -61,7 +62,7 @@ spring:
     password: 密码
     baseline-on-migrate: true #在没有元数据表的情况下，针对非空Schema执行迁移时是否自动调用基线。
 ```
-#### 在resource目录下创建db/migration目录添加sql脚本
+### 在resource目录下创建db/migration目录添加sql脚本
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201224132145.png)
 手动创建 db/migration 目录，然后在该目录下创建数据库脚本，数据库脚本的命名方式如下：
 
@@ -70,12 +71,12 @@ V<VERSION>__<NAME>.sql #注意：是两条下划线
 #比如V1_0_0__Create_Table_User.sql
 ```
 首先是大写字母 V，然后是版本号，要是有小版本可以用下划线隔开，例如 2_1，版本号后面是`两个下划线`，然后是脚本名称，文件后缀是 `.sql`。
-#### 验证是否成功:
+### 验证是否成功:
 项目启动时,会运行flyway执行sql语句.生成schema_version表,用于记录sql执行情况.
 去数据库`test`看`flyway_schema_history`表
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201224132524.png)
 
-#### 其他配置
+## 其他配置
 ```
 spring:
   flyway:
