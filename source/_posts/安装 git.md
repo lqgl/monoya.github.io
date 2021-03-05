@@ -5,7 +5,7 @@ updated:
 tags:
  - Git
  - Windows
-categories: Git,Windows
+categories: Git
 keywords: 'Windows,Git,安装Git'
 description: 安装Git
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg

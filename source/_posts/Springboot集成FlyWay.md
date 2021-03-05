@@ -5,7 +5,7 @@ updated:
 tags:
  - SpringBoot
  - FlyWay
-categories: SpringBoot,Mysql
+categories: SpringBoot
 keywords: 'SpringBoot,Mysql,FlyWay,数据库版本管理'
 description: Springboot集成FlyWay，使用FlyWay进行数据库版本管理
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
