@@ -107,7 +107,7 @@ public class UserController {
 
 ![image-20210304095648667](https://raw.githubusercontent.com/lqgl/repo/main/img/image-20210304095648667.png)
 
-## 参考原文
+## 参考文档
 
 [spring boot 集成 swagger 3.0 指南](https://segmentfault.com/a/1190000037455077)
 

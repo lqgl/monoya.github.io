@@ -3,10 +3,10 @@ title: Ubuntu20.04安装和配置MySQL5.7
 date: 
 updated: 
 tags:
- - Linux
+ - Ubuntu
  - Mysql
-categories: Linux
-keywords: 'Linux,Mysql5.7'
+categories: Ubuntu
+keywords: 'Ubuntu,Mysql5.7'
 description: Ubuntu20.04安装和配置MySQL5.7
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20210304111156.png
@@ -213,7 +213,7 @@ dpkg --list|grep mysql
 然后reboot一下就可以了
 ```
 
-## 文章链接
+## 参考文档
 
 [Linux 安装 MySQL](https://www.funtl.com/zh/linux/Linux-%E5%AE%89%E8%A3%85-MySQL.html#%E6%9C%AC%E8%8A%82%E8%A7%86%E9%A2%91)
 

@@ -3,10 +3,10 @@ title: Ubuntu20.04安装MongoDB
 date: 
 updated: 
 tags:
- - Linux
+ - Ubuntu
  - MongoDB
-categories: Linux
-keywords: 'Linux,MongoDB'
+categories: Ubuntu
+keywords: 'Ubuntu,MongoDB'
 description: Ubuntu20.04环境下安装MongoDB
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20210304113111.png
@@ -132,6 +132,6 @@ sudo systemctl disable mongod
 mongo
 ```
 
-## 文章链接
+## 参考文档
 
 [Ubuntu20.04安装MongoDB](https://www.cnblogs.com/bubbleboom/p/14167409.html)

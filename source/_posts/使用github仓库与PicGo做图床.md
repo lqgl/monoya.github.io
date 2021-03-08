@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/用户名/仓库名/分支名
 
 ![](https://raw.githubusercontent.com/lqgl/repo/main/img/20201214104157.png)
 
-## 参考链接
+## 参考文档
 [PicGo GitHub图床](https://lanlan2017.github.io/blog/b19c6a80/)
 [配置picgo成为多平台图床工具](https://www.antmoe.com/posts/c9c6437b/index.html)
 

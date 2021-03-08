@@ -91,6 +91,6 @@ spring:
     table: flyway_schema_history #配置数据库信息表的名称，默认是 flyway_schema_history。
 ```
 
-## 文章链接：
+## 参考文档
 [SpringBoot整合Flyway](https://blog.csdn.net/qq_41402200/article/details/89247317)
 [简化Spring Boot项目部署，Flyway搞起来](https://baijiahao.baidu.com/s?id=1659024978275677262&wfr=spider&for=pc)

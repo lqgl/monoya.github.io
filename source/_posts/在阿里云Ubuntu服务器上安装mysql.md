@@ -3,10 +3,10 @@ title: 在阿里云Ubuntu服务器上安装Mysql
 date: 2020-12-15
 updated:
 tags:
- - Linux
+ - Ubuntu
  - Mysql
-categories: Linux
-keywords: 'Linux,Mysql,Mysql大小写敏感,部署'
+categories: Ubuntu
+keywords: 'Ubuntu,Mysql,Mysql大小写敏感,部署'
 description: 在阿里云Ubuntu服务器上安装Mysql,并解决Mysql8.0大小写敏感问题
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20210304111156.png
@@ -118,7 +118,7 @@ service mysql stop
 service mysql restart
 ```
 
-## 文章链接
+## 参考文档
 [Mysql8.0大小写敏感](https://stackoverflow.com/questions/53103588/lower-case-table-names-1-on-ubuntu-18-04-doesnt-let-mysql-to-start/53175727#53175727)
 [ubuntu下mysql8.0.21安装及修改root用户密码](https://blog.csdn.net/crazy_zh/article/details/109164552)
 [SQLyog连接MySQL8报错:2058的解决方法](https://www.cnblogs.com/chengmi/p/12403761.html)

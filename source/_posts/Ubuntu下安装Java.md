@@ -1,12 +1,12 @@
 ---
-title: Linux安装Java
+title: Ubuntu安装Java
 date: 
 updated: 
 tags:
- - Linux
+ - Ubuntu
  - Java
-categories: Linux
-keywords: 'Linux,Java'
+categories: Ubuntu
+keywords: 'Ubuntu,Java'
 description: Linux环境下安装Jdk
 top_img: https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg
 cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20210304110537.png
@@ -14,7 +14,7 @@ cover: https://raw.githubusercontent.com/lqgl/repo/main/img/20210304110537.png
 
 
 
-# Linux 安装 Java
+# Ubuntu 安装 Java
 
 ## 概述
 

@@ -177,7 +177,7 @@ git push origin hexo
 
 >以前也有搭建过博客，但因为没有坚持下来，总忘记，所以整理一下，以后方便查看。所有的流程都在这里。
 
-文章链接：
+## 参考文档
 [使用hexo+github免费搭建个人博客网站超详细教程](https://www.jianshu.com/p/a39573555039)
 [Butterfly 安装文档(一) 快速开始](https://butterfly.js.org/posts/21cfbf15/)
 
