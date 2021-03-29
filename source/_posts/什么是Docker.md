@@ -2,9 +2,9 @@
 title: Docker
 tags:
   - Docker
-  - Linux
+  - Ubuntu
 categories: Docker
-keywords: 'Docker,Linux'
+keywords: 'Docker,Ubuntu'
 description: Docker
 top_img: 'https://raw.githubusercontent.com/lqgl/repo/main/img/top_img.jpg'
 date: 2021-03-06 11:54:59
